@@ -37,13 +37,11 @@
         max-width: 100%;
         background: var(--bg-color);
         border: 12px solid var(--bg-color);
-        filter: var(--filter1);
         margin: auto;
     }
     
     .result-container {
         background-color: var(--bg-color);
-        border: 12px solid var(--bg-color);
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -82,18 +80,6 @@
         justify-content: space-between;
         align-items: center;
         margin: 15px 0;
-    }
-    
-    nav {
-        display: flex;
-        justify-content: flex-end;
-        padding: 20px 24px;
-    }
-    
-    .navbtn {
-        position: absolute;
-        left: 2rem;
-        margin-top: 0.3rem;
     }
     
     .theme-switch-wrapper {
